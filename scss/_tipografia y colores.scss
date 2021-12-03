@@ -1,0 +1,86 @@
+/*operaciones*/
+$black: black;
+$white: white;
+$red: red;
+$letra:"Bebas Neue", cursive;
+
+
+h1 {
+    color:$white;
+    font-family:$letra;
+    letter-spacing: 2pt;
+    }
+    
+
+/*SECTION*/
+.rojo{
+    background-color: $red;
+}
+
+.izq {
+    text-decoration: $red;
+  }
+
+
+/*TIPOGRAFIA*/
+
+.estilo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-size: larger;
+  font-weight: bold;
+  color: $white;
+}
+
+.estilo2 {
+  font-family: $letra;
+  font-size: xx-large;
+  text-align: center;
+  color: $red;
+}
+
+.estilo3 {
+  font-family: $letra;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: xx-large;
+  color: $white;
+}
+.estilo4 {
+  font-family: $letra;
+  font-size: xx-large;
+  letter-spacing: 2pt;
+  color: $white;
+}
+
+
+.profeh4 {
+    padding: 10px;
+    font-family: "Bebas Neue", cursive;
+    font-size: xx-large;
+    color: $white;
+    align-items: center;
+  }
+
+
+  /*FOOTER*/
+  
+  footer {
+    color: $white;
+  }
+  
+  .fondo {
+    background-color: $red;
+    background-image: linear-gradient(to left, $white, $red);
+  }
+
+  /*BODY*/
+  body {
+    background-color: $black;
+  }
+  
+  /*HEADER*/
+  header {
+    color: $white;
+  }

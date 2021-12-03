@@ -1,0 +1,349 @@
+@im
+@import "tipografia y colores";
+
+/*operaciones*/
+$black: black;
+$white: white;
+$red: red;
+$letra:"Bebas Neue", cursive;
+
+
+
+* {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  /*BODY*/
+  body {
+    background-color: $black;
+  }
+  
+  /*HEADER*/
+  header {
+    color: $white;
+  }
+  
+  /*MENU*/
+  .menu a {
+    margin: auto;
+    padding: 5px;
+    color: $white;
+    text-decoration: none;
+    width: 5%;
+    border-right: 1px solid;
+    background-color: $red;
+    border: 1px $red;
+  }
+  
+  .menu {
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .posicion{
+    position: absolute;
+  }
+  .izq {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration:$red ;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  h1 {
+    color:$white;
+    font-family:$letra;
+      letter-spacing: 2pt;
+    }
+    
+  
+  
+    /*video*/
+  
+    .center{
+      margin: 0 auto;
+      width: 1000px; 
+      position: relative;
+      height: 0px;
+      width: 100%;   
+      padding-bottom: 56.25%;
+  }
+  
+  video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    }
+  /*MAIN*/
+  
+  main {
+    color:$white;
+    margin: 50px;
+    padding: 30px;
+  }
+  
+  .margen {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .texto-encima{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centrado{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /*SECTION*/
+  .rojo{
+      background-color: $red;
+  }
+  /*TIPOGRAFIA*/
+  
+  .estilo {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    font-weight: bold;
+    color: $white;
+  }
+  
+  .estilo2 {
+    font-family: $letra;
+    font-size: xx-large;
+    text-align: center;
+    color: $red;
+  }
+  
+  .estilo3 {
+    font-family: $letra;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: x-large;
+    color: $white;
+  }
+  .estilo4 {
+    font-family: $letra;
+    font-size: x-large;
+    letter-spacing: 2pt;
+    color: $white;
+  }
+  
+  
+  /*DIRECCIONES*/
+  .centrar {
+    text-align: center;
+    float: center;
+  }
+  
+  .izq {
+    text-decoration: $red;
+  }
+  
+  .der {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .derecha {
+    text-align: right;
+  }
+  
+  /*PARRAFOS*/
+  h2 {
+    color:$red ;
+  }
+  
+  h4 {
+    color: $red;
+  }
+  
+
+  
+  /*FORMULARIO CONTACTO.HTML*/
+  
+  form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+  }
+  
+  label {
+    grid-column: 1 / 2;
+  }
+  
+  input,
+  button {
+    grid-column: 2/ 2;
+  }
+  
+  /*FLEX BOX*/
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+      .flex2 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: center;}
+
+        .flexhijo {
+            width: 200px;
+            height: 200px;
+          transition: height 2s;
+      }
+        
+         
+
+  .flexhijo:hover {
+    width: 400px;
+  }
+  
+  /*PROFESORES INDEX*/
+  
+  .profepadre {
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    justify-items: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  
+  /*.profeh1 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh1:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/DAMIAN.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .profeh2 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh2:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/DANIEL.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .profeh3 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh3:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/MARIANA.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }*/
+  
+  .profeh4 {
+    padding: 10px;
+    font-family: "Bebas Neue", cursive;
+    font-size: x-large;
+    color: $white;
+    align-items: center;
+  }
+  
+  /*FOOTER*/
+  
+  footer {
+    color: $white;
+  }
+  
+  .fondo {
+    background-color: $red;
+    background-image: linear-gradient(to left, $white, $red);
+  }
+  
+  .btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 80px;
+    bottom: 5px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  /*MOBILE FIRST*/
+  @media (max-width: 960px) and (min-width:460px) {
+    .menu {
+      width: 5%;
+      display: inline-flex;
+      list-style: none;
+      padding: 0px;
+    }
+  
+    .izq {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      text-decoration: $red;
+    }
+  
+    ul li {
+      list-style-type: none;
+    }
+  }
+  
+  .mapa {
+    width: 300px;
+    height: 200px;
+  }
+  
