@@ -2,25 +2,22 @@
 $black: black;
 $white: white;
 $red: red;
-$letra:"Bebas Neue", cursive;
-
+$letra: "Bebas Neue", cursive;
 
 h1 {
-    color:$white;
-    font-family:$letra;
-    letter-spacing: 2pt;
-    }
-    
+  color: $white;
+  font-family: $letra;
+  letter-spacing: 2pt;
+}
 
 /*SECTION*/
-.rojo{
-    background-color: $red;
+.rojo {
+  background-color: $red;
 }
 
 .izq {
-    text-decoration: $red;
-  }
-
+  text-decoration: $red;
+}
 
 /*TIPOGRAFIA*/
 
@@ -54,33 +51,31 @@ h1 {
   color: $white;
 }
 
-
 .profeh4 {
-    padding: 10px;
-    font-family: "Bebas Neue", cursive;
-    font-size: xx-large;
-    color: $white;
-    align-items: center;
-  }
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: xx-large;
+  color: $white;
+  align-items: center;
+}
 
+/*FOOTER*/
 
-  /*FOOTER*/
-  
-  footer {
-    color: $white;
-  }
-  
-  .fondo {
-    background-color: $red;
-    background-image: linear-gradient(to left, $white, $red);
-  }
+footer {
+  color: $white;
+}
 
-  /*BODY*/
-  body {
-    background-color: $black;
-  }
-  
-  /*HEADER*/
-  header {
-    color: $white;
-  }
+.fondo {
+  background-color: $red;
+  background-image: linear-gradient(to left, $white, $red);
+}
+
+/*BODY*/
+body {
+  background-color: $black;
+}
+
+/*HEADER*/
+header {
+  color: $white;
+}

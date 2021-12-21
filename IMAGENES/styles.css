@@ -89,6 +89,62 @@ main {
   grid-column-gap: 20px;
   grid-row-gap: 20px; }
 
+/*.profeh1 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh1:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/DAMIAN.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .profeh2 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh2:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/DANIEL.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .profeh3 {
+    padding: 80px;
+    width: 200px;
+    height: 200px;
+    /*transform: scale(1.1, 1.1);
+          transform: scaleX(1.1);
+          transform: scaleY(1.1);
+    transition: all 2s;
+    animation: animacion 1s linear 1s infinite alternate;
+  }
+  .profeh3:hover {
+    height: 100px;
+    width: 100px;
+    padding: 80px;
+    background-image: url(/IMAGENES/MARIANA.jpg);
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }*/
 .btn-whatsapp {
   display: block;
   width: 80px;
@@ -116,7 +172,8 @@ h1 {
 
 /*TIPOGRAFIA*/
 .estilo {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-size: larger;
   font-weight: bold;
@@ -255,7 +312,8 @@ main {
 
 /*TIPOGRAFIA*/
 .estilo {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-size: larger;
   font-weight: bold;
